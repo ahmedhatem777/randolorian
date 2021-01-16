@@ -4,8 +4,7 @@
   "main": "index.js",
   "homepage": "https://ahmedhatem777.github.io/randolorian",
   "scripts": {
-    "predeploy": "webpack",
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d build",
     "dev-server": "webpack serve"
   },
   "author": "Ahmed Hatem",
