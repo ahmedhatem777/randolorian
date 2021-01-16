@@ -9,7 +9,8 @@ const Options = (props) => (
         <div className="card-header">
             <h4 className="card-header-text">Options:</h4>
             <Button
-                className="btn btn-outline-secondary rounded-0"
+                // size="sm"
+                className="btn-outline-secondary rounded-0"
                 onClick={props.removeAllHandler}
                 disabled={!props.hasOptions}
             >
